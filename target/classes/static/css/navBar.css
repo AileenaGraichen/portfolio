@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{ margin-bottom: 2em;}
+
+.container_navbar{
+    display: grid;
+    grid-template-columns: 20rem auto;
+    grid-template-rows: repeat(5, minmax(25%, 1fr));
+    position: fixed;
+    margin-left: -0.5em;
+    margin-top: -1.5em;
+}
+
+.box_navbar{
+    background: linear-gradient(180deg, #fac9ef 0%, #c8ffe8 100%);
+}
+
+.text{
+    font-size: 64px;
+    background: -webkit-linear-gradient(#ee7bca, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Courier;
+    position: relative;
+    top:10%;
+    left: 0.1em;
+}
