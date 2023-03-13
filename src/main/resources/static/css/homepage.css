@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(1, minmax(60rem, 1fr));
+    grid-template-columns: 20rem auto 20rem;
+    margin: -0.5em;
+}
+.box{
+    background: rgba(255, 255, 255, 0.95);
+    grid-column: 2/3 ;
+}
+
+body {
+    background-image: url("../images/XO.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.text{
+    background: -webkit-linear-gradient(#ee7bca, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Courier;
+    position: relative;
+    top:10%;
+    left: 0.1em;
+}
